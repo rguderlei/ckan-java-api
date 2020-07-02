@@ -31,7 +31,7 @@ public class Group {
     @JsonProperty("revision_id")
     private UUID revisionId;
     private GroupType type;
-    private UUID id;
+    private String id;
     private String name;
     @JsonProperty("num_followers")
     private Integer numFollowers;
